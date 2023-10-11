@@ -7,6 +7,8 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    guifont = "monospace:h11.5", -- text below applies for VimScript
+    clipboard = "unnamed,unnamedplus",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
